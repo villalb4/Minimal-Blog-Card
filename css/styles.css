@@ -93,7 +93,7 @@ body {
   color: var(--secondary-text);
   letter-spacing: -0.15px;
   line-height: 21px;
-  max-width: 330px;
+  max-width: 300px;
 }
 
 .card-bottom {
