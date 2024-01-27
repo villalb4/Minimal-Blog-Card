@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+:root {
+  --principal-text: #20293A;
+  --secondary-text: #6C727F;
+  --chip-text: #883AE1;
+
+  --background: #FAFAF9;
+  --card-background: #FFFFFF;
+  --chip-background: #E6D6FC;
+
+  --border: #E5EAF0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--background);
+  margin: 0;
+}
+
+.card {
+  background-color: var(--card-background);
+  max-width: 368px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+.card-top {
+  padding: 16px 16px 19px 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.card-info {
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.card-info > img {
+  /* height: 152px; */
+  width: 100%;
+  display: block;
+}
+
+.tag-container {
+  display: inline-flex;
+  margin-bottom: 16px;
+}
+
+.tag-container > div {
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  padding: 4.17px 16px;
+  border-radius: 15px;
+  background-color: var(--chip-background);
+
+}
+
+.tag-container > div > span {
+  color: var(--chip-text);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.text-container {
+  
+}
+
+.text-container > span {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--principal-text);
+}
+
+.text-container > p {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--secondary-text);
+}
+
+.card-bottom {
+  padding: 20px 16px;
+}
+
+.card-bottom > span {
+  font-size: 12px;
+  color: var(--secondary-text);
+}
